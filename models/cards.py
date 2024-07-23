@@ -12,4 +12,8 @@ class Card:
         return (f"Card Name: {self.name}\n"
                 f"Set Name: {self.set_name}\n"
                 f"Card Type: {self.card_type}")
-    
+
+
+if __name__ == "__main__":
+    test_card = Card(name="testing", set_name="Test Set", set_code="TST", rarity="Mythic", collection_number=000, card_type="Test", image_url=None)
+    print(test_card)
