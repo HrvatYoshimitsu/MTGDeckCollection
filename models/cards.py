@@ -12,3 +12,4 @@ class Card:
         return (f"Card Name: {self.name}\n"
                 f"Set Name: {self.set_name}\n"
                 f"Card Type: {self.card_type}")
+    
