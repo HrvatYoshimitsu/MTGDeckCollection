@@ -25,10 +25,3 @@ class Card:
             return response.json()
         else:
             print("Error")
-
-
-if __name__ == "__main__":
-    test_card = Card(name="testing", set_name="Test Set", set_code="TST", rarity="Mythic", collection_number=000, card_type="Test", image_url=None)
-    print(test_card)
-
-    Card.search_card_scryfall("sol ring", "pip", "359")
