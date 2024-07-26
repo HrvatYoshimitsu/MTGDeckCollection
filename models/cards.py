@@ -24,4 +24,4 @@ class Card:
         if response.status_code == 200:
             return response.json()
         else:
-            print("Error")
+            print(f"No Card found named: {name} ({set_code})-{collection_number}")
